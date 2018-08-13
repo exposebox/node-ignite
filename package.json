@@ -9,8 +9,8 @@
     "node": ">=8.0.0"
   },
   "dependencies": {
-    "long": "latest",
-    "decimal.js": "latest"
+    "long": "^4.0.0",
+    "decimal.js": "^10.0.1"
   },
   "scripts": {
     "test": "jasmine",
@@ -18,8 +18,8 @@
     "test:auth_example": "node ./spec/ExamplesExecutor.js AuthExample"
   },
   "devDependencies": {
-    "jasmine": "latest",
-    "jasmine-expect": "latest",
-    "jasmine-reporters": "latest"
+    "jasmine": "^3.2.0",
+    "jasmine-expect": "^3.8.3",
+    "jasmine-reporters": "^2.3.2"
   }
 }
